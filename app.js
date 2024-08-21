@@ -16,7 +16,7 @@ subSelection.addEventListener('mousedown', (event) => {
   console.log(event.target.firstChild.data)
   switch (event.target.firstChild.data) {
     case "Peisthetaerus":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/peisthetaerus.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/peisthetaerus.jpg'>";
       header.innerHTML = "Peisthetaerus";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -84,7 +84,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `
       break;
     case "Tereus":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/tereus.png'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/tereus.png'>";
       header.innerHTML = "Tereus";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -115,7 +115,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `;
       break;
     case "Chorus Leader":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/chorus leader.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/chorus leader.jpg'>";
       header.innerHTML = "Chorus Leader";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -148,7 +148,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `;
       break;
     case "Athens":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/athens.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/athens.jpg'>";
       header.innerHTML = "Athens";
       paraStructure.innerHTML = `
 <h1>Athens:</h1> 
@@ -177,7 +177,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `;
       break;
     case "Cloudcuckooland":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/cloudcuckooland.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/cloudcuckooland.jpg'>";
       header.innerHTML = "Cloudcuckooland";
       paraStructure.innerHTML = `
 <h1>Description:</h1>
