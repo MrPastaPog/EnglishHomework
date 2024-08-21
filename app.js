@@ -54,7 +54,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `
       break;
     case "Euelpides":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/euelpides.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/euelpides.jpg'>";
       header.innerHTML = "Euelpides";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
