@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Augustus";
-  src: url("/Fonts/AUGUSTUS.woff") format("woff");
+  src: url("/EnglishHomework/Fonts/AUGUSTUS.woff") format("woff");
   font-style: normal;
 }
 
 @font-face {
   font-family: "Dominican";
-  src: url("/Fonts/DOMINICA.woff") format("woff");
+  src: url("/EnglishHomework/Fonts/DOMINICA.woff") format("woff");
   font-style: normal;
 }
 
 @font-face {
   font-family: "Chanticleer";
-  src: url("/Fonts/ChanticleerRomanNF.woff") format("woff");
+  src: url("/EnglishHomework/Fonts/ChanticleerRomanNF.woff") format("woff");
   font-style: normal;
 }
 
