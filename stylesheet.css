@@ -1,6 +1,28 @@
+@font-face {
+  font-family: "Augustus";
+  src: url("/Fonts/AUGUSTUS.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dominican";
+  src: url("/Fonts/DOMINICA.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chanticleer";
+  src: url("/Fonts/ChanticleerRomanNF.woff") format("woff");
+  font-style: normal;
+}
+
+
 .table {
   display: grid;
   grid-template-rows: 3;
+  position: relative;
+  bottom: 0;
+
 }
 
 .selection {
@@ -62,7 +84,7 @@
 .para-structure {
   color: #CCC9DC;
   font-size: 28px;
-  font-family: "Dominican";
+  font-family: "Chanticleer";
   width: 60%;
 }
 .header {
@@ -72,6 +94,60 @@
   font-size: 100px;
   text-align: center;
 }
+
+.title {
+  background-color: #0C1821;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.title-header {
+  font-family: "Augustus";
+  font-size: 40px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 500px;
+  position: absolute;
+  color: #CCC9DC;
+}
+
+.title-image {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50px;
+}
+
+.title-intro {
+  color: #CCC9DC;
+  font-family: "Chanticleer";
+  font-size: 30px;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 70%;
+  text-align: center;
+}
+
+.pages {
+  display: grid;
+  grid-template-rows: 2;
+}
+
+
+.bibliography {
+  position: relative;
+  color: #CCC9DC;
+  width: 500px;
+  grid-row: 3;
+  bottom: 0;
+}
+
 body {
   background-color: #0C1821;
 }

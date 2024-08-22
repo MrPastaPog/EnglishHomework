@@ -1,5 +1,0 @@
-#000000  Black
-#0C1821  Rich Black
-#1B2A41  Oxford Blue
-#324A5F  Charcoal
-#CCC9DC  Lavender

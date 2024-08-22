@@ -6,13 +6,19 @@ const selectionThemes = document.querySelector('.selection-themes');
 const subSelection = document.querySelector('.sub-selection')
 const imageView = document.querySelector('.image-view');
 const header = document.querySelector('.header');
+const bibliography = document.querySelector('.bibliography');
 selectionCharacters.addEventListener('mousedown', (event) => {
   subSelection.innerHTML = "<button style='grid-column: 1;'>Peisthetaerus</button><button style='grid-column: 2;'>Euelpides</button><button style='grid-column: 3;'>Tereus</button><button style='grid-column: 4;'>Chorus Leader</button>";
+  
 })
 selectionSetting.addEventListener('mousedown', (event) => {
   subSelection.innerHTML = "<button style='grid-column: 1;'>Athens</button><button style='grid-column: 2;'>Cloudcuckooland</button>";
 })
+selectionThemes.addEventListener('mousedown', (event) => {
+  subSelection.innerHTML = "<button style='grid-column: 1;'>Comedy</button><button style='grid-column: 2;'>Freedom</button><button style='grid-column: 3;'>Power</button>";
+})
 subSelection.addEventListener('mousedown', (event) => {
+  bibliography.toggleAttribute('hidden', false);
   console.log(event.target.firstChild.data)
   switch (event.target.firstChild.data) {
     case "Peisthetaerus":
@@ -40,6 +46,8 @@ subSelection.addEventListener('mousedown', (event) => {
   both the birds and the gods. Zues yields, giving Peisthetaerus the scepter and approval to marry 
   Basileia, who is the personification of dominion and power.
 
+<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-100%);" src="Images/zues.jpg">
+
 <h1>Analysis:</h1>
   Peisthetaerus symbolises the theme of ambition. His name in greek roughly
   translates to trusty friend. His transition from a unhappy Athenian to the ruler of the universe
@@ -61,6 +69,8 @@ subSelection.addEventListener('mousedown', (event) => {
   Euelpides, whose name is translated to "Good Hope", is an Athenian who also like Peisthetaerus, has become 
   disillusioned with his life in Athens. He is viewed as simple-minded, happy to follow Peisthetaerus on the journey
   Euelpides is more comedic then Peisthetaerus, providing humour through skepticism and cowardice.
+
+<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-60%);" src="Images/euelpidesart.jpg">
 
 <h1>Role and Actions in the play:</h1>
   Euelpides and Peisthetaerus travel together, being guided by their birds, in search for a better life. 
@@ -129,6 +139,8 @@ subSelection.addEventListener('mousedown', (event) => {
   and Euelpides ideas. This connection between all the different aspects of the play creates a contrast between the humans and birds perspectives on 
   power and freedom.
 
+<img style="position: absolute; right: 100px; scale: 150%;  transform: translateY(-60%);" src="Images/chorusleadergroup.jpg">
+
 <h1>Actions in the play:</h1>
   The Chorus Leader first presents all the birds in bird kingdom using song and dance displaying each bird in the kingdom as distinct and powerful. 
 
@@ -155,7 +167,9 @@ subSelection.addEventListener('mousedown', (event) => {
   Athens is the capital and the largest city in Greece. it is the eighth largest urban area in the European Union. The city of Athens has a
   population of 643,452 in 2021. Athens is also on of the world's oldest cities, with its history spanning over 3,400 years. According
   to Greek Mythology it was named after the Greek Goddess of wisdom known as Athena. But most scholars now believe that she had her name taken
-  from the city itself.  
+  from the city itself.
+
+<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-80%);" src="Images/ancientathensmap.jpg">
 
 <h1>Classical Athens and Aristophanes View On its Political System:</h1>
   The city of Athends during the Classical period was the major urban centre of the state also called Athens. The Athenian democracy was
@@ -163,6 +177,8 @@ subSelection.addEventListener('mousedown', (event) => {
   century to the start of the 4th century BC. Aristophanes was critical of the democracy in Athens during the time, He frequently targeted
   the politicians of the time within his comedies using satire to show the people the flaws and the corruption that Aristophanes believed was
   present within the political system.  
+
+<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-80%);" src="Images/athenspolitics.jpg">
 
 <h1>Aristophanes depiction of Athens in the play "The Birds":</h1>
   At the start of the play Aristophanes introduces us to Peisthetaerus and Euelpides who are escaping Athens to find somewhere better. 
@@ -187,6 +203,8 @@ subSelection.addEventListener('mousedown', (event) => {
   and busy lives. The citys main goal is to take control of the space that is where prayers, sacrifices and messages are sent to the gods, thereby
   creating a position of power for the birds over both the gods and the humans.
 
+<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-80%);" src="Images/cloudland.jpg">
+
 <h1>How it was built:</h1>
   During the play the first messenger describes to Peisthetaerus how Cloudcuckooland is being built. The messenger says that only birds made Cloudcuckooland.
   They all worked by hand. "Thirty thousand cranes flew in from Lybia-they brought foundation stones they'd swallowed down. The corn crakes chipped away to from
@@ -202,6 +220,36 @@ subSelection.addEventListener('mousedown', (event) => {
   The citys creation and governance under Peisthetaerus, which satirizes the political leaders of Athens. Aristophanes suggests that in a seemingly perfect society,
   human flaws and the desire for control will surface.
       `;
+      break;
+    case "Comedy":
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/Images/comedy.png'>";
+      header.innerHTML = "Comedy";
+      paraStructure.innerHTML = `
+
+Aristophanes uses comedy in his play "The Birds" not only to captivate his audience but to also get them to think about their society from a
+new viewpoint. This will explain a few different ways Aristophanes used comedy to engage his audience into the play. Poking fun at Athenian politics, 
+slapstick humour and quick remarks with deeper meanings are all ways Aristophanes gives his audience another view on life.
+<br>
+<br>
+Aristophanes uses political satire to poke fun at the politics of athens. The plot is about the two athenians who are tired of Athens. 
+The fact they come up with an idea of making a big island in the sky, shows how absurd the politcal powers were at the time. Cloudcuckooland
+was used as a metaphor for the politics of Athens.
+The birds in the play are personified, to be used for comedy, examples are the crazyness of having birds speak and declare war on the
+gods, the birds also to give an outsiders view on human society, having birds interact with the humans can allow Aristophanes to make
+comments on humans way of thinking through the Birds. The birds also consisted of physical 
+humour and slapstick. An example is when Pisthetaerus whipped the poet. This form of humour would
+be more apparent when watching the play, Aristophanes wanted the characters to have an exaggerated form of movement and slapstick.
+The Birds explores many aspects of Athenian society, such as on going legal disputes, the need for power, and the constant change of
+public opinion. Using these familiar issues to the athenian public, Aristophanes allows his audience to think about society from a different view. 
+<br>
+<br>
+Aristophanes uses comedy in The Birds not only to entertain, but to create thought provoking questions and reflection among the audience. By combining
+the comedy on political satire, absurd situations and the slapstick humor, he makes a play that is able to make people laugh and question together.
+      `;
+      break;
+    case "Freedom":
+      break;
+    case "Power":
       break;
   }
 })
