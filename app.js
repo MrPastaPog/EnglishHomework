@@ -22,7 +22,7 @@ subSelection.addEventListener('mousedown', (event) => {
   console.log(event.target.firstChild.data)
   switch (event.target.firstChild.data) {
     case "Peisthetaerus":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/peisthetaerus.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/peisthetaerus.jpg'>";
       header.innerHTML = "Peisthetaerus";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -62,7 +62,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `
       break;
     case "Euelpides":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/euelpides.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/euelpides.jpg'>";
       header.innerHTML = "Euelpides";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -94,7 +94,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `
       break;
     case "Tereus":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/tereus.png'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/tereus.png'>";
       header.innerHTML = "Tereus";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -125,7 +125,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `;
       break;
     case "Chorus Leader":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/chorus leader.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/chorus leader.jpg'>";
       header.innerHTML = "Chorus Leader";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -160,7 +160,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `;
       break;
     case "Athens":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/athens.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/athens.jpg'>";
       header.innerHTML = "Athens";
       paraStructure.innerHTML = `
 <h1>Athens:</h1> 
@@ -193,7 +193,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `;
       break;
     case "Cloudcuckooland":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/cloudcuckooland.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/cloudcuckooland.jpg'>";
       header.innerHTML = "Cloudcuckooland";
       paraStructure.innerHTML = `
 <h1>Description:</h1>
