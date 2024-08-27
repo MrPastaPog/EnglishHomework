@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Augustus";
   src: url("/EnglishHomework/Fonts/AUGUSTUS.woff") format("woff");
@@ -104,19 +105,19 @@
 
 .title-header {
   font-family: "Augustus";
-  font-size: 40px;
+  font-size: 4vh;
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
-  top: 500px;
+  top: 50%;
   position: absolute;
   color: #CCC9DC;
 }
 
 .title-image {
   position: absolute;
-  width: 40%;
-  height: auto;
+  width: auto;
+  height: 40%;
   left: 50%;
   transform: translateX(-50%);
   top: 50px;
@@ -125,7 +126,7 @@
 .title-intro {
   color: #CCC9DC;
   font-family: "Chanticleer";
-  font-size: 30px;
+  font-size: 3vh;
   position: absolute;
   width: 80%;
   left: 50%;
@@ -151,3 +152,5 @@
 body {
   background-color: #0C1821;
 }
+
+
