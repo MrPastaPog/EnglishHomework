@@ -67,7 +67,7 @@ subSelection.addEventListener('mousedown', (event) => {
 <h1>Character Description:</h1>
   Euelpides, whose name is translated to "Good Hope", is an Athenian who also like Pisthetaerus, has become 
   disillusioned with his life in Athens. He is viewed as simple-minded, happy to follow Pisthetaerus on the journey
-  Euelpides is more comedic then Pisthetaerus, providing humour through skepticism and cowardice.
+  Euelpides is more comedic then Pisthetaerus, providing humour through his skepticism and cowardice.
 
 <img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-60%);" src="/Images/euelpidesart.jpg">
 
@@ -75,8 +75,8 @@ subSelection.addEventListener('mousedown', (event) => {
   Pisthetaerus and Euelpides travel together, being guided by their birds, in search for a better life. 
   Euelpides has doubts during their journey which highlights his more cautious and hesitant nature compared
   to Pisthetaerus. When fisrt meeting the birds. Euelpides is less eager to engage with them. He is much more reluctant then 
-  Pisthetaerus, Pisthetaerus is more eager to present the plan then Euelpides. During early scenes Euelpides 
-  brings more comic relief in his reluctant nature, Expressing confusion or fear when interacting with the 
+  Pisthetaerus, Pisthetaerus is more eager to present the plans for Cloudcuckooland then Euelpides. During early scenes Euelpides 
+  brings more comic relief using his reluctant nature, Expressing confusion or fear when interacting with the 
   unknown. Once Pisthetaerus lays out his ambitions Euelpides takes on a supportive role and helps Pisthetaerus through supporting
   his efforts. He doesent actively participate in the persuasion of the birds, or the creation of Cloudcuckooland but
   he does help Pisthetaerus with the work never taking the lead.Progressing through the play, Euelpides becomes less important to the plot. Pisthetaerus takes center stage, 
@@ -85,7 +85,7 @@ subSelection.addEventListener('mousedown', (event) => {
   him more loyal and supportive. Instead of being a risk taker or persuasive, he makes sure to assist Pisthetaerus.
 
 <h1>Analysis:</h1>
-  Euelpides modesty emphasizes Pisthetaerus boldness. His reluctance to fully embrace the plans tempers Pisthetaerus 
+  Euelpides modesty emphasizes Pisthetaerus boldness. His reluctance to fully embrace the plans calms Pisthetaerus's 
   ambitions, but his willingness to follow shows how being around a persuasive leader can still sway the cautious.
   Euelpides is the main provider of comic relief throughout the play. His interactions with Pisthetaerus make him 
   show Euelpides funny traits. His fear and skepticism contribute to the play, making him a relatable Character
@@ -113,13 +113,13 @@ subSelection.addEventListener('mousedown', (event) => {
   Tereus helps Pisthetaerus and Euelpides gain the trust of the birds, who initially dont trust the humans. He assures the other birds that humans are allies
   and not threats.
 
-  Once Pisthetaerus comes up with the idea of building "Cloudcuckooland", Tereus assists with organzing the bird community to work towards its creation.
+  Once Pisthetaerus comes up with the idea of building "Cloudcuckooland", Tereus assists with organizing the bird community to work towards its creation.
 
 <h1>Analysis:</h1>
-  Tereus in "The Birds" represents the blend between his tragic backstory and Aristophanes comedy. His character is transformation from a brutal and vengeful 
-  myth to a comedic character. This shift allows Aristophanes to use the themes of power in a lighthearted and comedic light. The symbolism of the Hoopoe
+  Tereus in "The Birds" represents the blend between his tragic backstory and Aristophanes comedy. His character is the transformation from a brutal and vengeful 
+  myth to a comedic character. This shift allows Aristophanes to use the themes of power in a lighthearted and comedic way. The symbolism of the Hoopoe
   is linked to punishment and redemption. In a humerous manner, Tereus in not a violent king but he is a bird. This shift from king to bird is a metaphor
-  for how he also changes from an evil tyrant to a ally in an ambitious plan to take over the existing rulers of the universe. Tereus's character displays 
+  for how he also changes from an evil tyrant to an ally in an ambitious plan to take over the existing rulers of the universe. Tereus's character displays 
   Aristophanes commentary on how peoples indentity and power can change.
       `;
       break;
@@ -129,7 +129,7 @@ subSelection.addEventListener('mousedown', (event) => {
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
   The Chorus Leader in Aristophanes "The Birds" is the head of the Chorus of Birds, the Chorus Leader represents the collective voice of the Birds.
-  The chorus leader is an important figure among the play. guiding the actions of the Chorus. The Chrous Leader often interacts with Pisthetaerus and Euelpides,
+  The Chorus leader is an important figure among the play. Guiding the actions of the Chorus. The Chrous Leader often interacts with Pisthetaerus and Euelpides,
   and addressing the audience to provide information on upcoming events.
 
 <h1>Role in the play:</h1>
@@ -170,8 +170,8 @@ subSelection.addEventListener('mousedown', (event) => {
 
 <img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-80%);" src="/Images/ancientathensmap.jpg">
 
-<h1>Classical Athens and Aristophanes View On its Political System:</h1>
-  The city of Athends during the Classical period was the major urban centre of the state also called Athens. The Athenian democracy was
+<h1>Classical Athens and Aristophanes view on its Political System:</h1>
+  The city of Athens during the Classical period was the major urban centre of the state also called Athens. The Athenian democracy was
   established in 508 BC under Cleisthenes. The system remain stable and was in place for 180 years. Aristophanes lived from the middle of the fifth
   century to the start of the 4th century BC. Aristophanes was critical of the democracy in Athens during the time, He frequently targeted
   the politicians of the time within his comedies using satire to show the people the flaws and the corruption that Aristophanes believed was
