@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Augustus";
+  src: url("/EnglishHomework/Fonts/AUGUSTUS.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dominican";
+  src: url("/EnglishHomework/Fonts/DOMINICA.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chanticleer";
+  src: url("/EnglishHomework/Fonts/ChanticleerRomanNF.woff") format("woff");
+  font-style: normal;
+}
+
+.title {
+  font-family: "Dominican";
+  text-align: center;
+  font-size: 50px;
+  color: #CCC9DC;
+}
+
+.quiz>* {
+  color: #CCC9DC;
+  font-family: "Chanticleer";
+  font-size: 30px;
+}
+
+input {
+  scale: 150%;
+}
+
+span {
+  left: 40px;
+  position: relative;
+}
+
+.submit {
+  background-color: green;
+  width: 200px;
+  height: 50px;
+  font-size: 40px;
+  font-family: "Augustus";
+  color: #CCC9DC;
+  border: none;
+  border-radius: 25px;
+  transition: 0.2s ease-in-out;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.submit:hover {
+  background-color: darkgreen;
+}
+
+.back {
+  background-color: red;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  font-size: 30px;
+  font-family: "Chanticleer";
+}
+ul {
+  width: 300px;
+}
+
+body {
+  background-color: #0C1821;
+}

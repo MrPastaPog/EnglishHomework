@@ -149,6 +149,17 @@
   bottom: 0;
 }
 
+.quiz {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  border: none;
+  border-radius: 25px;
+  font-size: 30px;
+  font-family: "Chanticleer";
+}
+
+
 body {
   background-color: #0C1821;
 }

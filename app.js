@@ -7,6 +7,11 @@ const subSelection = document.querySelector('.sub-selection')
 const imageView = document.querySelector('.image-view');
 const header = document.querySelector('.header');
 const bibliography = document.querySelector('.bibliography');
+const quizButton = document.querySelector('.quiz');
+
+quizButton.addEventListener('mousedown', (event) => {
+  window.location.href += "quiz.html"
+})
 selectionCharacters.addEventListener('mousedown', (event) => {
   subSelection.innerHTML = "<button style='grid-column: 1;'>Pisthetaerus</button><button style='grid-column: 2;'>Euelpides</button><button style='grid-column: 3;'>Tereus</button><button style='grid-column: 4;'>Chorus Leader</button>";
   
@@ -22,7 +27,7 @@ subSelection.addEventListener('mousedown', (event) => {
   console.log(event.target.firstChild.data)
   switch (event.target.firstChild.data) {
     case "Pisthetaerus":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/Images/Pisthetaerus.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/Pisthetaerus.jpg'>";
       header.innerHTML = "Pisthetaerus";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -45,7 +50,7 @@ subSelection.addEventListener('mousedown', (event) => {
   both the birds and the gods. Zues yields, giving Pisthetaerus the scepter and approval to marry 
   Sovereignty, who is the personification of dominion and power.
 
-<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-100%);" src="/Images/zues.jpg">
+<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-100%);" src="/EnglishHomework/Images/zues.jpg">
 
 <h1>Analysis:</h1>
   Pisthetaerus symbolises the theme of ambition. His name in greek roughly
@@ -61,7 +66,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `
       break;
     case "Euelpides":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/Images/euelpides.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/euelpides.jpg'>";
       header.innerHTML = "Euelpides";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -69,7 +74,7 @@ subSelection.addEventListener('mousedown', (event) => {
   disillusioned with his life in Athens. He is viewed as simple-minded, happy to follow Pisthetaerus on the journey
   Euelpides is more comedic then Pisthetaerus, providing humour through his skepticism and cowardice.
 
-<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-60%);" src="/Images/euelpidesart.jpg">
+<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-60%);" src="/EnglishHomework/Images/euelpidesart.jpg">
 
 <h1>Role and Actions in the play:</h1>
   Pisthetaerus and Euelpides travel together, being guided by their birds, in search for a better life. 
@@ -93,7 +98,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `
       break;
     case "Tereus":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/Images/tereus.png'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/tereus.png'>";
       header.innerHTML = "Tereus";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -124,7 +129,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `;
       break;
     case "Chorus Leader":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/Images/chorus leader.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/chorus leader.jpg'>";
       header.innerHTML = "Chorus Leader";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
@@ -138,7 +143,7 @@ subSelection.addEventListener('mousedown', (event) => {
   and Euelpides ideas. This connection between all the different aspects of the play creates a contrast between the humans and birds perspectives on 
   power and freedom.
 
-<img style="position: absolute; right: 100px; scale: 150%;  transform: translateY(-60%);" src="/Images/chorusleadergroup.jpg">
+<img style="position: absolute; right: 100px; scale: 150%;  transform: translateY(-60%);" src="/EnglishHomework/Images/chorusleadergroup.jpg">
 
 <h1>Actions in the play:</h1>
   The Chorus Leader first presents all the birds in bird kingdom using song and dance displaying each bird in the kingdom as distinct and powerful. 
@@ -159,7 +164,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `;
       break;
     case "Athens":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/Images/athens.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/athens.jpg'>";
       header.innerHTML = "Athens";
       paraStructure.innerHTML = `
 <h1>Athens:</h1> 
@@ -168,7 +173,7 @@ subSelection.addEventListener('mousedown', (event) => {
   to Greek Mythology it was named after the Greek Goddess of wisdom known as Athena. But most scholars now believe that she had her name taken
   from the city itself.
 
-<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-80%);" src="/Images/ancientathensmap.jpg">
+<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-80%);" src="/EnglishHomework/Images/ancientathensmap.jpg">
 
 <h1>Classical Athens and Aristophanes view on its Political System:</h1>
   The city of Athens during the Classical period was the major urban centre of the state also called Athens. The Athenian democracy was
@@ -177,7 +182,7 @@ subSelection.addEventListener('mousedown', (event) => {
   the politicians of the time within his comedies using satire to show the people the flaws and the corruption that Aristophanes believed was
   present within the political system.  
 
-<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-80%);" src="/Images/athenspolitics.jpg">
+<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-80%);" src="/EnglishHomework/Images/athenspolitics.jpg">
 
 <h1>Aristophanes depiction of Athens in the play "The Birds":</h1>
   At the start of the play Aristophanes introduces us to Pisthetaerus and Euelpides who are escaping Athens to find somewhere better. 
@@ -192,7 +197,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `;
       break;
     case "Cloudcuckooland":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/Images/cloudcuckooland.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/cloudcuckooland.jpg'>";
       header.innerHTML = "Cloudcuckooland";
       paraStructure.innerHTML = `
 <h1>Description:</h1>
@@ -202,7 +207,7 @@ subSelection.addEventListener('mousedown', (event) => {
   and busy lives. The citys main goal is to take control of the space that is where prayers, sacrifices and messages are sent to the gods, thereby
   creating a position of power for the birds over both the gods and the humans.
 
-<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-80%);" src="/Images/cloudland.jpg">
+<img style="position: absolute; right: 100px; width: 400px; height: 400px; transform: translateY(-80%);" src="/EnglishHomework/Images/cloudland.jpg">
 
 <h1>How it was built:</h1>
   During the play the first messenger describes to Pisthetaerus how Cloudcuckooland is being built. The messenger says that only birds made Cloudcuckooland.
@@ -221,7 +226,7 @@ subSelection.addEventListener('mousedown', (event) => {
       `;
       break;
     case "Comedy":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/Images/comedy.png'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/comedy.png'>";
       header.innerHTML = "Comedy";
       paraStructure.innerHTML = `
 
@@ -247,7 +252,7 @@ the comedy on political satire, absurd situations and the slapstick humor, he ma
       `;
       break;
     case "Freedom":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/Images/freedom.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/freedom.jpg'>";
       header.innerHTML = "Freedom";
       paraStructure.innerHTML = `
 Aristophanes explores the theme of freedom in "The Birds" to create a deeper meaning within the play 
@@ -274,7 +279,7 @@ human rulership to create with its imperfect human qualities.
       break;
     case "Power":
 
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/Images/power.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/power.jpg'>";
       header.innerHTML = "Power";
       paraStructure.innerHTML = `
       Aristophanes explores the theme of power within the play "The Birds" to convey his ideas to his audience. This Segment will explore the 

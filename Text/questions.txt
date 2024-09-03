@@ -1,0 +1,145 @@
+First five questions are simpler
+last 10 questions are bigger
+
+
+let answers = [1, 1, 2, 0, 1, 1, 3, 0, 0, 2, 0, 3, 0, 3, 0];
+
+What is Pisthetaerus's main goal in the play?
+
+A) To become the king of Athens.
+B) To build a city in the sky and control the space between earth and heaven.
+C) To lead the birds in a war against humans.
+D) To overthrow Zeus and destroy the gods.
+
+How does Pisthetaerus plan to force the gods to negotiate?
+
+A) By attacking Mount Olympus directly.
+B) By cutting off their food supply from human sacrifices.
+C) By forming an alliance with other powerful gods.
+D) By threatening to destroy the city of Athens.
+
+What does Pisthetaerus ultimately demand from Zeus?
+
+A) Control over all human cities.
+B) The right to live among the gods.
+C) The scepter of authority and to marry Sovereignty.
+D) Immortality and endless wealth.
+
+What is Euelpides's primary role in the play?
+
+C) He provides comic relief through his skepticism and cowardice.
+A) He is the main leader and persuader.
+D) He is responsible for building Cloudcuckooland.
+B) He is the main antagonist against Pisthetaerus.
+How does Euelpides's personality contrast with Pisthetaerus's?
+
+A) He is more ambitious and persuasive.
+D) He is more cautious and supportive, rather than taking the lead.
+B) He is a risk-taker and often challenges Pisthetaerus.
+C) He is more dominant and controls the narrative of the play.
+
+How does Tereus’s role in "The Birds" contrast with his mythological background, and what does this contrast symbolize in Aristophanes' comedy?
+
+Answers:
+
+A) Tereus's role emphasizes his unchanged violent nature, symbolizing that people cannot escape their past, even when transformed. His character remains driven by anger and revenge, mirroring his mythological actions.
+
+B) Tereus’s role contrasts sharply with his mythological background, as he transforms from a brutal king into a comedic ally. This change symbolizes a redemption arc, with his shift from king to bird representing a shift from tyranny to cooperation.
+
+C) Tereus's character continues to embody the traits of a tyrant, symbolizing that power and identity are inescapable. His involvement in creating Cloudcuckooland is driven by a desire to dominate the birds, just as he once dominated his kingdom.
+
+D) Tereus’s role reinforces the idea that his past actions make him untrustworthy, symbolizing that transformation does not equate to redemption. The other birds are wary of his involvement, fearing his violent tendencies will resurface in the new city.
+
+
+
+How does Aristophanes use the characters Peisthetaerus and Euelpides in "The Birds" to express his views on Athens, and what does their desire to escape the city symbolize in the context of the play's satire?
+
+Answers:
+
+A) Aristophanes uses Peisthetaerus and Euelpides to show that Athens is the ideal place to live, as they eventually decide to stay and embrace its culture.
+B) The characters' desire to escape Athens symbolizes their ambition to conquer other cities and spread Athenian democracy worldwide.
+C) Aristophanes depicts Peisthetaerus and Euelpides as loyal citizens who want to bring reforms to improve the Athenian political system.
+D) Aristophanes uses their desire to escape as a critique of the corrupt and restless nature of Athenian society, showing his negative view of the city through satire.
+
+
+
+What does the portrayal of Athens in "The Birds" suggest about Aristophanes' opinion of the city's political system, especially in relation to the Athenian democracy during his time?
+
+Answers:
+
+A) The portrayal suggests that Aristophanes was critical of the Athenian democracy, using satire to expose the corruption and flaws he perceived within the political system.
+B) Aristophanes presents Athens as a utopia with an ideal political system that other cities should emulate.
+C) The portrayal shows Aristophanes' belief that Athens was the best-governed city in Greece, with no need for reform or change.
+D) Aristophanes depicts Athens as a city that should abandon democracy in favor of a monarchy, reflecting his support for a more authoritarian regime.
+
+
+What does Cloudcuckooland symbolize in "The Birds," and how does Aristophanes use its creation and governance to comment on the idea of a perfect society and the flaws within it?
+
+Answers:
+
+A) Cloudcuckooland symbolizes the unrealistic and foolish nature of the desire to create a perfect society, with Aristophanes using its creation to mock the idea that such a place could ever exist.
+B) Cloudcuckooland represents the achievable goal of a utopian society, with Aristophanes portraying it as a model for how humans can escape corruption and achieve peace.
+C) Aristophanes uses Cloudcuckooland to demonstrate that perfection is attainable, but only through the wise leadership of characters like Peisthetaerus.
+D) Cloudcuckooland symbolizes the need for total control over both gods and humans, with Aristophanes supporting the idea of a powerful ruler who can maintain order.
+
+How does Aristophanes use the characters Pisthetaerus and Euelpides in "The Birds" to express his views on political power, and what does their rejection of Athens symbolize within the context of the play?
+
+Answers:
+
+A) Aristophanes uses their rejection of Athens to show that political power is unnecessary and that true happiness lies in escaping society altogether.
+B) Their rejection of Athens symbolizes Aristophanes' belief that political power should be centralized in the hands of a few wise individuals who can lead without corruption.
+C) Aristophanes uses their rejection of Athens to criticize the political corruption and stupidity in the city, reflecting his own disillusionment with the political system.
+D) Their rejection of Athens symbolizes a desire for absolute power, as Aristophanes advocates for a new, more authoritarian form of government.
+
+
+What message does Aristophanes convey about divine power in "The Birds," and how does Pisthetaerus's actions towards the gods illustrate this theme?
+
+Answers:
+
+A) Aristophanes suggests that divine power is not invincible and can be overthrown through strategy, as Pisthetaerus starves the gods of sacrifices to gain leverage over them.
+B) Aristophanes portrays divine power as absolute and unchallengeable, with Pisthetaerus ultimately failing to have any impact on the gods.
+C) The play suggests that divine power is a myth, and Pisthetaerus's actions are meant to show the futility of trying to challenge the gods.
+D) Aristophanes argues that divine power is the only true form of power, and Pisthetaerus's attempts to challenge the gods are foolish and doomed to fail.
+
+
+How does Aristophanes use the creation of Cloudcuckooland in "The Birds" to satirize Athenian politics, and what does this metaphor reveal about the political climate of the time?
+
+Answers:
+
+A) Aristophanes uses Cloudcuckooland to show that Athenian politics were perfect and that the citizens should aim to create similar ideal systems.
+B) The creation of Cloudcuckooland is used to glorify the current political powers and their accomplishments, suggesting they were effective and admirable.
+C) Aristophanes uses the absurdity of Cloudcuckooland to highlight the ridiculousness of the Athenian political system, using it as a metaphor to critique the politics of his time.
+D) Cloudcuckooland serves as a metaphor for the absurdity and corruption of Athenian politics, illustrating how the current political powers were viewed as ineffective and irrational.
+
+What role does physical and slapstick humor play in Aristophanes' "The Birds," and how does it contribute to the play's commentary on Athenian society?
+
+Answers:
+
+A) Physical and slapstick humor, such as exaggerated movements and comedic actions, is used to highlight the absurdity and chaos in Athenian society, making serious commentary more engaging and accessible.
+B) Slapstick humor is used to undermine the importance of Athenian politics, suggesting that they are trivial and not worth serious consideration.
+C) Aristophanes uses slapstick humor to praise the political system, showing that even in serious matters, Athenian politics should be celebrated for their effectiveness.
+D) The use of physical humor is meant to distract the audience from the play’s deeper messages, making the political satire less impactful.
+
+
+How does Aristophanes use the character of the priest in "The Birds" to explore the theme of freedom in Cloudcuckooland, and what does this character's expulsion reveal about the play's view on true freedom?
+
+Answers:
+
+A) The priest’s expulsion demonstrates that Cloudcuckooland values religious practice and sees it as essential for maintaining freedom and peace.
+B) Aristophanes uses the priest’s expulsion to show that true freedom includes allowing all forms of religion and that restrictions are unnecessary in a utopia.
+C) The expulsion of the priest symbolizes that even in a society striving for freedom, certain restrictions are necessary to maintain order and prevent chaos.
+D) The priest’s expulsion highlights that true freedom cannot coexist with any form of restriction, illustrating the inherent difficulties in achieving a perfect, unrestricted society.
+
+
+
+What does the arrival and subsequent expulsion of the poet and the young man in "The Birds" suggest about the feasibility of creating a utopia, and how does Aristophanes use these characters to critique the concept of absolute freedom?
+
+Answers:
+
+A) The poet and young man’s expulsions reveal that the creation of a utopia is inherently flawed, as true freedom cannot be achieved without creating social hierarchies or allowing harmful behavior.
+B) Aristophanes uses these characters to suggest that a utopia is achievable if all individuals are given the freedom to express themselves and act without restriction.
+C) The play shows that a utopia requires absolute freedom, and the expulsions of the poet and young man indicate that no true utopia is possible without allowing all behaviors and expressions.
+D) The expulsions demonstrate that a utopia is possible if societal roles and behaviors are strictly regulated to prevent any form of disorder or conflict.
+
+
+
