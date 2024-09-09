@@ -27,7 +27,7 @@ subSelection.addEventListener('mousedown', (event) => {
   console.log(event.target.firstChild.data)
   switch (event.target.firstChild.data) {
     case "Pisthetaerus":
-      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/Pisthetaerus.jpg'>";
+      imageView.innerHTML = "<img style='position: relative; left: 50%; transform: translateX(-50%);' src='/EnglishHomework/Images/peisthetaerus.jpg'>";
       header.innerHTML = "Pisthetaerus";
       paraStructure.innerHTML = `
 <h1>Character Description:</h1>
