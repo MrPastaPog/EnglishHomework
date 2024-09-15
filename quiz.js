@@ -9,7 +9,7 @@ submitButton.addEventListener('mousedown', () => {
   Test()
 })
 backButton.addEventListener('mousedown', () => {
-  window.location.href = location.protocol + '//' + location.host
+  window.location.href = location.protocol + '//' + location.host + '/EnglishHomework'
 })
 
 
